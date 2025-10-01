@@ -1,0 +1,51 @@
+<!-- <html>
+    <h1>JURASSIC PARK 🐢</h1>
+
+    <script>
+        alert("VOCÊ GANHOU DUAS PASSAGENS PARA FRANÇA ✈✈")
+        prompt("INFORME O CEP");
+    </script>
+</html> -->
+
+
+<!-- <html>
+    <h1>NÚMERO ARMAZENADO</h1>
+
+    <script>
+        let num1 = Number(prompt("Insira o primeiro número"))
+        let num2 = Number(prompt("Insira o segundo número"))
+
+        som = num1 + num2
+        sub = num1 - num2
+        mult = num1 * num2
+        div = num1 / num2
+
+        alert("Resultado da soma "+ som)
+        alert(som)
+        alert("Resultado da subtração")
+        alert(sub)
+        
+
+
+    </script>
+</html> -->
+let mostrar = jsonObject
+    var tela:String = ""
+    
+    for item in jsonObject{
+        var it = item["codigo"] as? String
+
+
+        print("Codigo: \(it!)")
+        tela.append(it!)
+        tela.append("\n")
+        
+    }
+    
+    DispatchQueue.main.async {
+        let alertController = UIAlertController(title: "Produto Cadastrados", message:
+            ("Codigo: \(tela)\n"), preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: .default))
+        self.present(alertController, animated: true, completion: nil)
+        
+    }
