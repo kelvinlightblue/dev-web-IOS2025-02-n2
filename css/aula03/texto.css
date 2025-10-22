@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+
+
+/* Para usar uma fonte da internet, podemos usar o @import do site especifico. No exemplo abaixo utilizamos o site Google Fonts para importar e utilizar uma nova  */
+h2 {
+    font-family: "Playwrite DE SAS", cursive;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+
+    /* 1° valor: deslocamento horizontal
+    2° valor: deslocamento vertical
+    3° valor: desfoque
+    4° valor: cor da sombra */
+    text-shadow: 10px 20px 5px rgb(133, 237, 255);
+
+}
+
+p {
+    font-family: "Playwrite DE SAS", cursive;
+    text-align: center;
+    width: 600px;
+}
+
