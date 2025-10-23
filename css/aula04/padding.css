@@ -1,0 +1,41 @@
+h1 {
+    background: red;
+    border: 5px solid black;
+    margin: 0;
+/* margin é o espaço de fora de um elemento, e é o que faz com que esse elemento se afaste dos outros. uma margin 0 quer dizer que o h1 vai gradar nos outros elementos */
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+.quadrado {
+    width: 400px;
+    height: 400px;
+    background-color: turquoise;
+    background-size: cover;
+    border: 10px solid black;
+    /* podemos colocar margem em apenas um lado especifico utilizando os comandos de margin:
+    margin-top: (margem em cima);
+    margin-right: (margem a direita);
+    margin-bottom: (margem a baixo);
+    margin-left: (margem a esquerda); */
+
+    margin-left: 20px;
+    
+}
+
+#segunda {
+    padding: 25px;
+    padding-right: 70px;
+}
+/* PADDING: é o espaço interno que separa o conteudo da borda */
+
+/* MARGIN: é o espaço externo que separa os conteudos (caixas) */
+
+
+
+
+
+
+
+
+
+
